@@ -13,8 +13,6 @@ export class OperasBasComponent {
   res:string="";
   operacio:string="";
 
-
-
 operaci():void{
   if (this.operacio){
   switch(this.operacio){

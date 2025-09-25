@@ -1,1 +1,56 @@
-<p>cinepolis works!</p>
+
+<div id="fondu">
+
+<h1>Cinepolis</h1>
+<br>
+
+<div id="prim">
+<form action="">
+  <div id="camp1">
+    <h3>Entradas</h3>
+    <div class="form-group pt-4">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nobe" [(ngModel)]="nombre" name="nobe">
+      </div>
+      <div class="form-group pt-4">
+        <label for="cantP" class="form-label">Cantidad compradores:</label>
+        <input type="text" class="form-control" id="cantP" [(ngModel)]="cantidadPersonas " name="cantP">
+      </div>
+      <br>
+      <label for="TC" class="form-label">Tarjeta Cineco: </label>
+      <input type="radio" id="s" name="opcion" [(ngModel)]="opcionTarjeta" value="yes">
+      <label for="s">Si </label>
+      <label for=""></label>
+      <input type="radio" id="n" name="opcion" [(ngModel)]="opcionTarjeta" value="nou">
+      <label for="s"> No </label>
+      <div class="form-group pt-4">
+        <label for="num1" class="form-label">Cantidad de boletos</label>
+        <input type="text" class="form-control" id="cantbol"  [(ngModel)]="cantidadBoletos " name="cantbol">
+      </div>
+  </div>
+</form>
+
+<form action="" id="resp">
+  <div>
+    <h3>Salidas:</h3>
+    <div class="col-6">
+      <label for="valpag" class="form-label">Valor a pagar</label>
+      <h4> {{ valorPagare }} </h4>
+  </div>
+  </div>
+</form>
+
+</div>
+<br>
+<div id="salid">
+<form action="">
+  <h3>Acciones</h3>
+  <br>
+   <div class="form-group">
+        <button type="button" class="btn btn-primary mt-3" (click)="calcular()">Operacion</button>
+        <button type="button" class="btn btn-primary mt-3">Salir</button>
+      </div>
+</form>
+</div>
+</div>
+
