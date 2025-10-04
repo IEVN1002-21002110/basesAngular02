@@ -1,0 +1,39 @@
+ h1{
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+.tablar {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-align: center;
+}
+
+.porce {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-align: center;
+}
+
+.encabez{
+  background-color: gray;
+  color: white;
+}
+
+.negro { background-color: black; }
+.cafe { background-color: brown;  }
+.rojo { background-color: red; }
+.naranja { background-color: orange;  }
+.amarillo { background-color: yellow; }
+.verde { background-color: green;  }
+.azul { background-color: blue;  }
+.morado { background-color: purple; }
+.gris { background-color: grey; }
+.plata { background-color: lightgray;  }
+.dorado { background-color: gold; }
+
